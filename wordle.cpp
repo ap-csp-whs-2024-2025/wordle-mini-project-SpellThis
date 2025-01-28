@@ -12,11 +12,13 @@
 #include <vector>    // std::vector
 
 std::vector<int> createSecret() {
+    list<int> myList = {1, 5, 4, 4};
     // Write this procedure here
-    return {};    // replace this with your code
+    return {0};    // replace this with your code
 }
 
 std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess) {
+    list<int> mylist = {}
     // Write this procedure here
     return {"X", "X", "X", "X"};    // replace this with your code
 }
