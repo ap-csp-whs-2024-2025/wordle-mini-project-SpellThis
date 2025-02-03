@@ -31,16 +31,18 @@ std::vector<int> createSecret() {
 
 std::vector<std::string> getHint(std::vector<int> secret, std::vector<int> guess) {
     std::vector<int> mylist = {};
-    // Write this procedure here
+   
     return {"X", "X", "X", "X"};    // replace this with your code
     
 
 }
 
 bool winGame(std::vector<int> secret, std::vector<int> guess) {
+   if( secret && guess )
+        {"O", "O", "O", "O"};
     
     // Write this procedure here
-    return false;    // replace this with your code
+      // replace this with your code
 }
 
 int main()
@@ -73,6 +75,7 @@ int main()
         hint = getHint(secret_code, user_guess);
         display(hint);
         num_guesses = num_guesses + 1;
+
     }
 
     std::cout << "Congrats!  You guessed the code!  It took you " << num_guesses << " tries.\n";
